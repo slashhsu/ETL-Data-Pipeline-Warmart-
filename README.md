@@ -8,14 +8,23 @@ Walmart is the biggest retail store in the United States. Just like others, they
 In this project, you have been tasked with creating a data pipeline for the analysis of supply and demand around the holidays, along with conducting a preliminary analysis of the data. You will be working with two data sources: grocery sales and complementary data. You have been provided with the grocery_sales table in PostgreSQL database with the following features:
 
 
-grocery_sales//
+grocery_sales
+
+
 "index" - unique ID of the row//
+
+
 "Store_ID" - the store number
+
 "Date" - the week of sales
+
 "Weekly_Sales" - sales for the given store
+
 Also, you have the extra_data.parquet file that contains complementary data:
 
+
 extra_data.parquet
+
 "IsHoliday" - Whether the week contains a public holiday - 1 if yes, 0 if no.
 "Temperature" - Temperature on the day of sale
 "Fuel_Price" - Cost of fuel in the region
